@@ -1,0 +1,22 @@
+Importancia del analisis previo de los datos antes de iniciar las modificaciones.
+
+Es importante ya que para realizar un correcto procesamiento de datos, podemos asegurarnos de que la informacion presente en las columnas sea lo que buscamos, por ejemplo, datos de tipo numerico, que no se encuentren vacios, etc. De la misma manera, podriamos eliminar columnas o informacion innecesaria que represente una falta de confidencialidad en los datos o que sean datos innecesarios que solo estarian consumiendo memoria, que en grandes cantidades de informacion, representa mucha ayuda. Tambien podriamos acomodar los datos a nuestra conveniencia para realizar agrupaciones con mayor comodidad e identificar aquellos datos que creemos, podrian afectar con los resultados de nuestro procesamiento.
+
+
+
+DROPNA
+Tiene diferentes funciones dependiendo de sus parametros
+
+df.dropna()               -> Elimina las filas donde al menos falta un elemento
+
+df.dropna(axis='columns') -> Elimina las columnas donde al menos falta un elemento
+
+df.dropna(how='all')      -> Elimina las filas donde todos los elementos faltan
+
+df.dropna(thresh=2)       -> Mantiene las filas doonde hay al menos 2 valores no NA
+-------------------------------------------------------------------------------
+
+ASTYPE
+
+Parsea un objeto Pandas a otro tipo (dtype)
+
