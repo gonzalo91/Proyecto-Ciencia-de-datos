@@ -1,0 +1,4 @@
+- Nombre de columnas en español o ingles
+- Columnas con Formatos 0::19||1:23 --> (index , edad [por ejemplo]), ademas de que algunos son nulos, pero no los queremos borrar, ¿podemos guardarlas en un csv aparte y luego procesarla? O como procesarla
+- Una de nuestros objetivos secundarios era poder identificar si habia relacion con la fecha del incidente, contra la de los dias fetivos, podriamos 
+  tener otra Bd de dias festivos (en EEUU) para poder hacer la comparacion,y si es asi, ¿como se haria para poder unir esas dos tablas?
